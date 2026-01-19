@@ -30,9 +30,10 @@ D:\BCS_winter_2026
 
 ---
 
-## 2. hand_landmarker.task 다운로드
+## 2. hand_landmarker.task 다운로드 (이미 레포지토리에 존재)
 
 아래 주소에서 파일을 다운로드하고 **파일명을 정확히 `hand_landmarker.task`로 저장**한 다음 `proto.py`와 같은 폴더에 두세요.
+이미 레포지토리에 존재하므로 생략하셔도 됩니다.
 
 - 다운로드 링크:
   - https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task
