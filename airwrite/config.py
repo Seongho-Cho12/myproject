@@ -18,12 +18,12 @@ class Config:
     detect_every_n: int = 2
 
     # Render
-    canvas_size: int = 500
+    canvas_size: int = 100
     canvas_margin: int = 30
-    stroke_thickness: int = 11
+    stroke_thickness: int = 3
 
     # Result strip
-    strip_img_h: int = 640
+    strip_img_h: int = 100
     strip_gap: int = 10
     strip_pad: int = 20
 

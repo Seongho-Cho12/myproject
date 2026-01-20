@@ -41,7 +41,7 @@ def run_app():
 
             cv2.putText(frame, "MODE: RECORDING", (10, 30),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.8, (50, 255, 50), 2)
-            cv2.putText(frame, f"Chars: {len(char_imgs)}", (10, 60),
+            cv2.putText(frame, f"Chars: {len(tracker.char_strokes)}", (10, 60),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (200, 200, 200), 2)
 
             last_result, did_add, _ = tracker.process(
